@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="todo-list">
+      <div class="todo-list__header">
+        <h1 class="todo-list__heading">TO-DO LIST</h1>
+        <div class="todo-list__form">
+          <div class="todo-list__plan">
+            <input
+              class="todo-list__input"
+              type="text"
+              placeholder="What's your plan?!"
+              required
+              autofocus
+            />
+            <button class="todo-list__add">
+              <ion-icon name="add-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <ul class="todo-list__task"></ul>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
